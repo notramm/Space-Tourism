@@ -27,4 +27,4 @@ This project focuses on creating a fully responsive layout and clean modern UI.
 ---
 
 ## 👨‍💻 Author
-- GitHub – [@yourusername](https://github.com/notramm)
+- GitHub – [@notramm](https://github.com/notramm)
