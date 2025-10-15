@@ -1,20 +1,19 @@
 const nav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 
-const logo = document.querySelector('.logo');
+const logo = document.querySelector(".logo");
 
-logo.addEventListener('click', () => {
-    window.location.href = 'index.html';
+logo.addEventListener("click", () => {
+  window.location.href = "index.html";
 });
 
 navToggle.addEventListener("click", () => {
-    
-    const visiblity = nav.getAttribute("data-visible");
-    if (visiblity === "false") {
-        nav.setAttribute("data-visible", true);
-        navToggle.setAttribute("aria-expanded", true);
-    } else {
-        nav.setAttribute("data-visible", false);
-        navToggle.setAttribute("aria-expanded", false);
-    }
-})
+  const visiblity = nav.getAttribute("data-visible");
+  if (visiblity === "false") {
+    nav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else {
+    nav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
