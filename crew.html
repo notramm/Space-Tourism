@@ -12,6 +12,12 @@
       rel="stylesheet">
       
   <!-- Our custom CSS -->
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Space tourism website</title>
   
@@ -35,7 +41,7 @@
     </nav>
   </header>
   
-  <main id="main" class="grid-container grid-container--crew flow">
+  <main id="main" class="grid-container grid-container--crew flow animate__animated animate__fadeIn">
     <h1 class="numbered-title"><span aria-hidden="true">02</span> Meet your crew</h1>
     
     <div class="dot-indicators flex" role="tablist" aria-label="crew member list">
@@ -46,7 +52,7 @@
     </div>
     
     <!-- commander -->
-    <article class="crew-details flow" id="commander-tab" role="tabpanel" tabindex="0">
+    <article class="crew-details flow animate__animated animate__fadeIn" id="commander-tab" role="tabpanel" tabindex="0">
       <header class="flow flow--space-small">
         <h2 class="fs-600 ff-serif uppercase">Commander</h2>
         <p class="fs-700 uppercase ff-serif">Douglas Hurley</p>
@@ -57,7 +63,7 @@
     </article> 
     
     <!-- mission specialist -->
-    <article hidden class="crew-details flow" id="mission-tab" role="tabpanel" tabindex="0">
+    <article hidden class="crew-details flow animate__animated animate__fadeIn" id="mission-tab" role="tabpanel" tabindex="0">
       <header class="flow flow--space-small">
         <h2 class="fs-600 ff-serif uppercase">Mission Specialist</h2>
         <p class="fs-700 uppercase ff-serif">Mark SHuttleworth</p>
@@ -68,7 +74,7 @@
     </article> 
     
     <!-- pilot -->
-    <article hidden class="crew-details flow" id="pilot-tab" role="tabpanel" tabindex="0">
+    <article hidden class="crew-details flow animate__animated animate__fadeIn" id="pilot-tab" role="tabpanel" tabindex="0">
       <header class="flow flow--space-small">
         <h2 class="fs-600 ff-serif uppercase">Pilot</h2>
         <p class="fs-700 uppercase ff-serif">Victor Glover</p>
@@ -80,7 +86,7 @@
     </article> 
     
     <!-- engineer -->
-    <article hidden class="crew-details flow" id="crew-tab" role="tabpanel" tabindex="0">
+    <article hidden class="crew-details flow animate__animated animate__fadeIn" id="crew-tab" role="tabpanel" tabindex="0">
       <header class="flow flow--space-small">
         <h2 class="fs-600 ff-serif uppercase">Flight Engineer</h2>
         <p class="fs-700 uppercase ff-serif">Anousheh Ansari</p>
@@ -91,19 +97,19 @@
     </article> 
     
     
-    <picture id="commander-image">
+    <picture id="commander-image" class="animate__animated animate__fadeInUp">
       <source srcset="assets/crew/image-douglas-hurley.webp" type="image/webp">
       <img src="assets/crew/image-douglas-hurley.png" alt="Douglas Hurley">
     </picture>
-    <picture hidden id="mission-image">
+    <picture hidden id="mission-image" class="animate__animated animate__fadeInUp">
       <source srcset="assets/crew/image-mark-shuttleworth.webp" type="image/webp">
       <img src="assets/crew/image-mark-shuttleworth.png" alt="Douglas Hurley">
     </picture>
-    <picture hidden id="pilot-image">
+    <picture hidden id="pilot-image" class="animate__animated animate__fadeInUp">
       <source srcset="assets/crew/image-victor-glover.webp" type="image/webp">
       <img src="assets/crew/image-victor-glover.png" alt="Douglas Hurley">
     </picture>
-    <picture hidden id="crew-image">
+    <picture hidden id="crew-image" class="animate__animated animate__fadeInUp">
       <source srcset="assets/crew/image-anousheh-ansari.webp" type="image/webp">
       <img src="assets/crew/image-anousheh-ansari.png" alt="Douglas Hurley">
     </picture>

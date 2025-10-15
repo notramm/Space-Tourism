@@ -10,6 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
       rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
       
   <!-- Our custom CSS -->
   <link rel="stylesheet" href="index.css">
@@ -24,7 +28,7 @@
     </div>
     <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
     <nav>
-        <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+        <ul id="primary-navigation" data-visible="false" class=" animate__animated animate__fadeIn primary-navigation underline-indicators flex">
             <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span aria-hidden="true">01</span>Destination</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
@@ -33,7 +37,7 @@
     </nav>
   </header>
 
-  <main id="main" class="grid-container grid-container--home">
+  <main id="main" class="grid-container grid-container--home animate__animated animate__fadeIn">
     <div>
       <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">So, you want to travel to
       <span class="d-block fs-900 ff-serif text-white">Space</span></h1>
@@ -43,7 +47,7 @@
       because we’ll give you a truly out of this world experience! </p>
     </div>
     <div>
-      <a href="destination.html" class="large-button uppercase ff-serif text-dark bg-white">Explore</a>
+      <a href="destination.html" class="large-button uppercase ff-serif text-dark bg-white animate__animated animate__pulse animate__delay-1s animate__infinite">Explore</a>
     </div>
   </main>
 <script src="navigation.js" defer></script>
