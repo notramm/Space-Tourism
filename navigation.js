@@ -1,6 +1,12 @@
 const nav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 
+const logo = document.querySelector('.logo');
+
+logo.addEventListener('click', () => {
+    window.location.href = 'index.html';
+});
+
 navToggle.addEventListener("click", () => {
     
     const visiblity = nav.getAttribute("data-visible");
